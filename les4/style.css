@@ -1,0 +1,36 @@
+ h1{
+     color: white;
+     text-align: center;
+}
+
+.block{
+        background-color:rgb(165,42,42);
+}
+
+.picture{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.fish_text{
+        font-size: 18 px;
+}
+
+.span3{
+        color: blue;
+}
+
+.cars{
+        border: 3px dashed black;
+}
+
+.span2{
+        color: blue;
+}
+
+h2{
+        color:white;
+        background-color: black;
+        text-align: center;
+}
