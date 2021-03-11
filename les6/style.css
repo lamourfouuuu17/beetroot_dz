@@ -1,0 +1,130 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3b3f45;
+    border: 24px solid #fff;
+}
+
+header{
+    height: 120px;
+    background-color: rgb(74,79,86);
+    border: 1px solid rgb(74,79,86);
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(200,110,110);
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 28px;
+    margin-bottom: 18px;
+    font-size: 26px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-size: 17px;
+}
+
+.container{
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+table{
+    margin: 40px auto;
+}
+
+label{
+    color: #f9f9f9;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+tr{
+    display: block;
+    width: 800px;
+    padding:7px;
+    font-size: 25px;
+    background-color: rgb(136,131,158);
+}
+
+tr:nth-child(4){
+    background-color: #625e77;
+}
+
+.first::after{
+    display: inline-block;
+    content:"(for the next lessons about CSS)";
+    font-size: 15px;
+}
+
+.second::after{
+    display: inline-block;
+    content:"(for more CSS manipulations)";
+    font-size: 15px;
+}
+
+.third::after{
+    display: inline-block;
+    content:"(because they are awesome)";
+    font-size: 15px;
+}
+
+.forth::after{
+    display: inline-block;
+    content:"(hm...they always disappear)";
+    font-size: 15px;
+}
+
+.sixth::after{
+    display: inline-block;
+    content:"(for my friend)";
+    font-size: 15px;
+}
+
+td::after{
+    color: white;
+}
+
+tr:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+input[type="checkbox"]:active{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {display:none;}
+
+input[type="checkbox"]{
+     display:inline-block;
+     width:25px;/*Размер вашей кнопки или чекбокса*/
+     height:25px;
+     cursor:pointer;
+}
+
+input:checked+span{
+    text-decoration: line-through;
+}
+button{
+    width: 800px;
+    height: 72px;
+    margin-bottom: 102px;
+    background-color: #4a4f56;
+    border: 0px solid #4a4f56;
+    color: #eb7e72;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+*{transition: all .1s ease-in;}
