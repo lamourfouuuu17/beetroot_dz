@@ -1,0 +1,161 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1280px;
+  height: 976px;
+  background-color: white;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #0ec8cb;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 30px;
+
+  margin-top: 187px;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+h1::before {
+  content: "WHO WE ARE";
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #898f99;
+  display: block;
+
+  margin-bottom: 35px;
+}
+
+h2 {
+  text-align: center;
+  color: #999999;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+
+  margin-top: 45px;
+  margin-bottom: 108px;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 0;
+  width: 920px;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+td {
+  padding: 54px 28px 92px;
+  width: 230px;
+  background-color: #f7f4f7;
+  box-sizing: border-box;
+}
+
+th,
+td {
+  border: 2px solid #ececec;
+}
+
+td div:nth-child(odd) {
+  font-size: 21px;
+  color: #1b1b1b;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.title_first::before {
+  display: block;
+  content: "";
+  background: url(/content/Anchor.png) center no-repeat;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 19px;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+}
+
+.title_second::before {
+  display: block;
+  content: "";
+  background: url(/content/Diamond.png) center no-repeat;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+}
+
+.title_third::before {
+  display: block;
+  content: "";
+  background: url(/content/Eyeglasses.png) center no-repeat;
+  margin: 0 auto;
+  width: 64px;
+  height: 48px;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+}
+
+.title_forth::before {
+  display: block;
+  content: "";
+  background: url(/content/Monitor.png) center no-repeat;
+  margin: 0 auto;
+  width: 64px;
+  height: 52px;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+}
+
+td div:nth-child(even) {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: #757777;
+  text-align: center;
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+
+td:hover {
+  background-color: #0ec8cb;
+}
+
+td:hover .title_first::before {
+  content: " ";
+  background: url(/content/Anchor_white.png) center no-repeat;
+}
+
+td:hover .title_second::before {
+  content: " ";
+  background: url(/content/Diamond_white.png) center no-repeat;
+}
+
+td:hover .title_third::before {
+  content: " ";
+  background: url(/content/Eyeglasses_white.png) center no-repeat;
+}
+
+td:hover .title_forth::before {
+  content: " ";
+  background: url(/content/Monitor_white.png) center no-repeat;
+}
+
+td:hover div {
+  color: white;
+}
