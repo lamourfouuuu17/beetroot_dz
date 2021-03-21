@@ -1,0 +1,134 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #b07cf7;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 100px auto 29px;
+  text-align: center;
+}
+
+h2 {
+  color: #ebdffd;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 47px;
+  margin-top: 0;
+}
+
+.flex-container {
+  box-sizing: border-box;
+  width: 370px;
+  height: 310px;
+  background-color: thistle;
+  padding: 30px 43px 23px 20px;
+  margin-bottom: 50px;
+  position: relative;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.squere {
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background-color: #252525;
+  opacity: 0.5;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+span {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.con-1 {
+  background: linear-gradient(transparent, black), url(/content/hw10_1.png);
+}
+
+.con-2 {
+  background: linear-gradient(transparent, black), url(/content/hw10_2.png);
+}
+
+.con-3 {
+  background: linear-gradient(transparent, black), url(/content/hw10_3.png);
+}
+
+.text {
+  position: absolute;
+  top: 212px;
+}
+
+.text-1::after {
+  content: "By Auskteez - 2 hours ago";
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.text-2::after {
+  content: "By Auskteez - 3 hours ago";
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.text-3::after {
+  content: "By Auskteez - 6 hours ago";
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background-color: #f72b3b;
+  border: 0px solid #f72b3b;
+  box-shadow: 0 0 5px #6e4e9b;
+  color: white;
+
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
