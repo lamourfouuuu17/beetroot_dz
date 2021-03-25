@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main-container {
+  max-width: 1500px;
+  background: url(/content/bg_image.png) center / cover no-repeat fixed;
+  padding: 100px 165px 120px;
+}
+
+.header {
+  &__main-title {
+    font-size: 90px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin: 0;
+  }
+
+  &__second-title {
+    font-size: 17px;
+    color: #262626;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: "Raleway";
+    text-align: center;
+    margin: 46px auto;
+  }
+}
+
+.container {
+  width: 985px;
+  height: 443px;
+  box-sizing: border-box;
+  position: relative;
+  .userdata {
+    &-form {
+      &__input {
+        background: transparent;
+        border: none;
+        background-color: #00c4c4;
+        width: 500px;
+        height: 50px;
+        outline: transparent;
+        position: absolute;
+        top: 0px;
+        padding-left: 20px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Raleway";
+      }
+
+      input[type="email"] {
+        top: 65px;
+        opacity: 0.5;
+      }
+
+      input[type="tel"] {
+        top: 130px;
+        opacity: 0.5;
+      }
+
+      textarea[name="user-message"] {
+        height: 249px;
+        top: 195px;
+        opacity: 0.5;
+      }
+
+      ::placeholder {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Raleway";
+      }
+    }
+  }
+
+  .userinfo {
+    width: 315px;
+    height: 161px;
+    position: absolute;
+    left: 670px;
+    &__data {
+      margin: 0;
+      font-size: 17px;
+      line-height: 25px;
+      color: #262626;
+      font-weight: 300;
+      font-family: "Raleway";
+    }
+
+    span {
+      font-weight: 700;
+    }
+  }
+}

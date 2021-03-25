@@ -1,0 +1,35 @@
+.footer {
+  max-width: 1500px;
+  background-color: #262626;
+  padding: 31px 165px;
+  &__logo {
+    display: inline-block;
+    font-size: 25px;
+    color: #b9b9b9;
+    font-weight: 400;
+    font-family: "Pacifico";
+    text-align: right;
+
+    &::before {
+      content: "© 2015 Company. All right reserved.";
+      font-size: 16px;
+      color: #b9b9b9;
+      font-weight: 300;
+      font-family: "Raleway";
+      margin-right: 290px;
+    }
+  }
+
+  &__text {
+    display: inline;
+    font-size: 16px;
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: "Raleway";
+    margin-left: 360px;
+  }
+
+  &__love {
+    color: #ff2b58;
+  }
+}
