@@ -1,0 +1,95 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2e7ec;
+}
+
+.container{
+    width: 1140px;
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    margin: 10px;
+    height: 540px;
+    width: calc(33% - 20px);
+    background: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container-flex_justify-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-flex_width{
+    width: calc(66% - 20px);
+    background: linear-gradient( transparent, black), url(/content/Layer\ 8.png);
+}
+
+.container-flex-picture{
+    width: 356px;
+    height: 250px;
+}
+
+.container-flex__text{
+    width: 358px;
+    height: 290px;
+    padding: 23px 25px 25px;
+    box-sizing: border-box;
+}
+
+.container-flex__date{
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "HansKendrick";
+    margin-left: 46px;
+    margin-bottom: 23px;
+    color: #818181;
+}
+
+.container-flex__date_color{
+    color: #99968f;
+}
+
+.container-flex__date_margins{
+    margin: 0;
+}
+
+h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "HansKendrick";
+    margin: 0 44px 40px;
+}
+
+h3{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick";
+    text-transform: uppercase;
+}
+
+.container-flex__title::after{
+    content: "";
+    background-image: url(/content/Layer\ 3.png);
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 460px;
+    left: 28px;
+}
