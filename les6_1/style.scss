@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 54px 0 65px 0;
+}
+
+.icon {
+  width: 33.33%;
+
+  &_margin {
+    margin: 0 59px;
+  }
+
+  &__circle {
+    width: 63px;
+    height: 63px;
+    margin: 0 auto;
+    border: 1px solid #1275b9;
+    border-radius: 50%;
+    background: #1275b9 url(/content/Tablet.svg) no-repeat center;
+  }
+
+  &__circle-2 {
+    background: #1275b9 url(/content/Settings.svg) no-repeat center;
+  }
+
+  &__circle-3 {
+    background: #1275b9 url(/content/Dashboard.svg) no-repeat center;
+  }
+
+  &__circle-1:hover {
+    background: #fff url(/content/Tablet-blue.svg) no-repeat center;
+  }
+
+  &__circle-2:hover {
+    background: #fff url(/content/Settings-blue.svg) no-repeat center;
+  }
+
+  &__circle-3:hover {
+    background: #fff url(/content/Dashboard-blue.svg) no-repeat center;
+  }
+
+  &__title {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 18px 0;
+  }
+  &__text {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #9d9d9d;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+  }
+}
