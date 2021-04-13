@@ -2,14 +2,11 @@
 let user = prompt("Напишите свой возраст");
 
 if (user < 12) {
-    alert( 'Дитина' );
-}
-else if (user < 18) {
-    alert( 'Підліток' );
-} 
-else if (user < 60){
-    alert( 'Дорослий' );
-}
-else {
-    alert("Пенсіонер");
+  alert("Дитина");
+} else if (user < 18) {
+  alert("Підліток");
+} else if (user < 60) {
+  alert("Дорослий");
+} else {
+  alert("Пенсіонер");
 }
