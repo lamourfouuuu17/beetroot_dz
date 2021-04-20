@@ -7,6 +7,5 @@ let i;
 
 for (i = first_num; second_num >= i; i++) {
   sum += i;
-  i++;
 }
 alert(sum);
