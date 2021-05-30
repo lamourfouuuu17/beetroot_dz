@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.footer {
+  max-width: 1500px;
+  background-color: #262626;
+  padding: 31px 165px;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 25px;
+  color: #b9b9b9;
+  font-weight: 400;
+  font-family: "Pacifico";
+  text-align: right;
+}
+
+.footer__logo::before {
+  content: "© 2015 Company. All right reserved.";
+  font-size: 16px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-right: 290px;
+}
+
+.footer__text {
+  display: inline;
+  font-size: 16px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-left: 360px;
+}
+
+.footer__love {
+  color: #ff2b58;
+}
+/*# sourceMappingURL=footer.css.map */

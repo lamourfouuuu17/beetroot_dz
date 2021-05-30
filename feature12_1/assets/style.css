@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main-container {
+  max-width: 1500px;
+  background: url(/content/bg_image.png) center/cover no-repeat fixed;
+  padding: 100px 165px 120px;
+}
+
+.header__main-title {
+  font-size: 90px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  margin: 0;
+}
+
+.header__second-title {
+  font-size: 17px;
+  color: #262626;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: center;
+  margin: 46px auto;
+}
+
+.container {
+  width: 985px;
+  height: 443px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.container .userdata-form__input {
+  background: transparent;
+  border: none;
+  background-color: #00c4c4;
+  width: 500px;
+  height: 50px;
+  outline: transparent;
+  position: absolute;
+  top: 0px;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.container .userdata-form input[type="email"] {
+  top: 65px;
+  opacity: 0.5;
+}
+
+.container .userdata-form input[type="tel"] {
+  top: 130px;
+  opacity: 0.5;
+}
+
+.container .userdata-form textarea[name="user-message"] {
+  height: 249px;
+  top: 195px;
+  opacity: 0.5;
+}
+
+.container .userdata-form ::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.container .userdata-form :-ms-input-placeholder {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.container .userdata-form ::-ms-input-placeholder {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.container .userdata-form ::placeholder {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.container .userinfo {
+  width: 315px;
+  height: 161px;
+  position: absolute;
+  left: 670px;
+}
+
+.container .userinfo__data {
+  margin: 0;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.container .userinfo span {
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
